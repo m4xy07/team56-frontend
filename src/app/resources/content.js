@@ -28,7 +28,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/ItzHipe/try-try-but-i-cry",
+    link: "https://github.com/m4xy07/team56-frontend",
   },
 
   {
@@ -39,7 +39,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRsphDvVVKpxvxqqdwzWBjStlTPghQCgvzvPPPRXjHJNgjfRqGCjNqCpFVMJfPSPsCRtNlB",
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=draconixt@gmail.com",
   },
 ];
 

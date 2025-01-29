@@ -31,7 +31,7 @@ export const Footer = () => {
             / CropSense{" "}
             <SmartLink
               style={{ marginLeft: "-0.125rem" }}
-              href="https://github.com/ItzHipe/try-try-but-i-cry"
+              href="https://github.com/m4xy07/team56-frontend"
             >
               Check our Github
             </SmartLink>
