@@ -5,7 +5,7 @@ const routes = {
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/panel": true,
   "/team": true,
 };
 

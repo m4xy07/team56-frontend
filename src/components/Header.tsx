@@ -7,7 +7,7 @@ import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery } from "@/app/resources/content";
+import { person, home, about, blog, work, panel } from "@/app/resources/content";
 
 export const Header = () => {
   const pathname = usePathname() ?? "";
@@ -43,20 +43,20 @@ export const Header = () => {
               )}
               <Line vert maxHeight="24" />
 
-              {routes["/gallery"] && (
+              {routes["/panel"] && (
                 <>
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="grid"
-                    href="/gallery"
-                    label={gallery.label}
-                    selected={pathname.startsWith("/gallery")}
+                    href="/panel"
+                    label={panel.label}
+                    selected={pathname.startsWith("/panel")}
                   />
                   <ToggleButton
                     className="s-flex-show"
-                    prefixIcon="gallery"
-                    href="/gallery"
-                    selected={pathname.startsWith("/gallery")}
+                    prefixIcon="panel"
+                    href="/panel"
+                    selected={pathname.startsWith("/panel")}
                   />
                 </>
               )}
