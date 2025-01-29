@@ -1,7 +1,7 @@
 import AnalyticsDashboard from "@/components/AnalyticsDashboard";
 
 export async function generateMetadata() {
-  const title = "";
+  const title = "Panel";
   const description = "Your Blog Description";
   const baseURL = "yourwebsite.com";
 
