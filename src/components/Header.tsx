@@ -72,14 +72,18 @@ export const Header = () => {
                   <ToggleButton
                     className="s-flex-hide"
                     prefixIcon="grid"
-                    href="localhost:3002"
+                    onClick={() =>
+                      window.open("http://localhost:3002", "_blank")
+                    }
                     label={panel.label}
                     selected={pathname.startsWith("/panel")}
                   />
                   <ToggleButton
                     className="s-flex-show"
                     prefixIcon="panel"
-                    href="/panel"
+                    onClick={() =>
+                      window.open("http://localhost:3002", "_blank")
+                    }
                     selected={pathname.startsWith("/panel")}
                   />
                 </>
