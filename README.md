@@ -12,13 +12,14 @@ Dhruv Choudhary: [LinkedIn](https://www.linkedin.com/in/dhruv-choudhary-ab042129
 Aditya Jadhav: [LinkedIn](https://www.linkedin.com/in/aditya-jadhav-83574a347/)
 
 
-#Other Repos of the same project that work hand-in-hand:
+# Other Repos of the same project that work hand-in-hand:
+
 Frontend UI - https://github.com/m4xy07/team56-frontend
 Backend - Arduino - https://github.com/m4xy07/team56-backend
 Server - Middleware - https://github.com/m4xy07/team56-server
 Panel - WebView Dashboard - https://github.com/m4xy07/team56-cropsense-panel
 
-Project Video - https://youtu.be/zj87L2JrtaQ
+**Project Video** - https://youtu.be/zj87L2JrtaQ
 
 ## Aim and Objective of the Arduino Based Crop and Weather Suitability Station
 
