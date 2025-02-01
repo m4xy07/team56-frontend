@@ -73,7 +73,7 @@ export const Header = () => {
                     className="s-flex-hide"
                     prefixIcon="grid"
                     onClick={() =>
-                      window.open("http://localhost:3002", "_blank")
+                      window.open("http://localhost:3001", "_blank")
                     }
                     label={panel.label}
                     selected={pathname.startsWith("/panel")}
